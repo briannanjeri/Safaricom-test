@@ -1,0 +1,73 @@
+.task_list{
+    background: #f7f7f7;
+    min-height: 100vh;
+    display: flex;
+    padding-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    width: 80%;
+    margin: auto;
+  
+}
+
+
+.form_input{
+    width: 400px;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.form button {
+    width: 120px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: gray;
+    color: blue;
+}
+
+.task_container{
+    width: 350px;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.single_task{
+    width: 130px;
+}
+.task_button{
+    width: 200px;
+}
+.edit{
+    padding: 5px 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: blue;
+    width: 70px;
+    color: wheat;
+    margin-right: 10px;
+}
+
+.delete{
+    padding: 5px 10px;
+    background: #ff5a5f;
+    border: 1px solid red;
+    border-radius: 4px;
+    width: 70px;
+}
+
+.edit_input{
+    width: 200px;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0 10px;
+}
